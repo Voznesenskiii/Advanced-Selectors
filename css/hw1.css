@@ -1,0 +1,118 @@
+body{
+    padding:1%; 
+	margin:1%;
+	font-size: 125%;
+}
+header{
+    display: block;
+    background: rgb(109, 114, 37);
+    background: url(../images/flywheel.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: inherit;
+	padding-bottom: 15px;
+}
+main{
+    display: inline-flex;
+}
+aside.left{
+    display: inline-block;
+    width: 250px; /* Ширина блока */
+    height: 650px;
+    background: rgb(109, 114, 37);
+    position: relative;
+    top: 0;
+    bottom: 20px;
+}
+
+.left > a{
+	margin-right: 2%;
+	display:inline-block;
+    margin: 20px; /* Отступы вокруг */
+    background: rgb(155, 155, 155);
+    color: rgb(0, 0, 0);
+    font-variant: normal;
+    font-size: 110%;
+    font-family: "Times new Roman", Arial, sans-serif;
+    position: relative;
+    top: 0;
+    bottom: 20px;
+}
+
+h1{
+    color: rgb(244, 248, 252);
+    font-family: "Times new Roman", Arial, serif;
+    text-transform: uppercase;
+    font-variant: normal;
+    font-style: normal;
+    font-size: 125%;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-variant: normal;
+    font-size: 125%;
+    font-family: "Times new Roman", Arial, serif;
+    text-align: left;
+}
+
+nav{
+    display: flex;
+    margin: 10px 40px 10px;
+}
+
+nav a {
+    font-family: "Times new Roman", Arial, sans-serif;
+    font-size: 100%;
+    display:inline-block;
+	background-color: white;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: inherit;
+	padding: 2%;
+    margin: 4%;
+    width: 20%;
+    opacity: 0.4;
+    color: black;
+}
+
+
+.active{
+    background-color: white;
+    display: block;
+    font-variant: normal;
+    font-family: "Times new Roman", Arial, sans-serif;
+    color: rgb(36, 33, 187);
+    text-align: center;
+    opacity: 1.0;
+}
+
+.right{
+    /*float:right;*/
+    padding:1%; 
+	margin:1%;
+}
+
+img{
+    width: 200px;
+    border: 2px solid black;
+    float:left;
+}
+p{
+    font-variant: normal;
+    font-size: 100%;
+    font-family: "Times new Roman", Arial, serif;
+    font-weight: normal;
+}
+th{
+    font-weight: bolder;
+    font-size: 110%;
+}
+td{
+    font-size: 110%;
+}
